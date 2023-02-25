@@ -1,2 +1,2 @@
 # Searching_and_Sorting
-C Programming
+Implementation of Searching and Sorting Algorithms in C
