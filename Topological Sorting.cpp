@@ -87,7 +87,7 @@ int main()
         cout<<endl<<endl;
         */
 
-        for(j=0;j<n;j++){
+        for(j=0;j<n;j++){   //updating the visited array
             //cout<<"j in for loop = :"<<j<<endl;
             if(indegree[j]==0 && visited[j]==0){
                 cout<<j+1<<" ";
@@ -105,7 +105,7 @@ int main()
 
         }
 
-        for(int k=0;k<n;k++){
+        for(int k=0;k<n;k++){ //updating the indegree array
                 if(a[j][k]==1){
                     indegree[k]=indegree[k]-1;
 
