@@ -43,7 +43,7 @@ int main()
     int indegree[n]={0};
     int visited[n]={0};
 
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++){  //calculation of indegrees
         for(int j=0;j<n;j++){
             if(a[j][i]==1){
                 indegree[i]++;
